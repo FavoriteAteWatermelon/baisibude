@@ -16,6 +16,10 @@
 		13193B4924B840E10017CC04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13193B4824B840E10017CC04 /* main.m */; };
 		13193B5324B840E10017CC04 /* baisijieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13193B5224B840E10017CC04 /* baisijieTests.m */; };
 		13193B5E24B840E20017CC04 /* baisijieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13193B5D24B840E20017CC04 /* baisijieUITests.m */; };
+		13193B7224B862F70017CC04 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13193B7124B862F70017CC04 /* HomeViewController.m */; };
+		13193B7524B863620017CC04 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13193B7424B863620017CC04 /* NewsViewController.m */; };
+		13193B7924B863780017CC04 /* CareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13193B7824B863780017CC04 /* CareViewController.m */; };
+		13193B7C24B863870017CC04 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13193B7B24B863870017CC04 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,14 @@
 		13193B5924B840E20017CC04 /* baisijieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baisijieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13193B5D24B840E20017CC04 /* baisijieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baisijieUITests.m; sourceTree = "<group>"; };
 		13193B5F24B840E20017CC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13193B7024B862F70017CC04 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		13193B7124B862F70017CC04 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		13193B7324B863620017CC04 /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		13193B7424B863620017CC04 /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		13193B7724B863780017CC04 /* CareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CareViewController.h; sourceTree = "<group>"; };
+		13193B7824B863780017CC04 /* CareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CareViewController.m; sourceTree = "<group>"; };
+		13193B7A24B863870017CC04 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		13193B7B24B863870017CC04 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +116,7 @@
 		13193B3524B840E00017CC04 /* baisijie */ = {
 			isa = PBXGroup;
 			children = (
+				13193B6F24B862C40017CC04 /* pages */,
 				13193B3624B840E00017CC04 /* AppDelegate.h */,
 				13193B3724B840E00017CC04 /* AppDelegate.m */,
 				13193B3924B840E00017CC04 /* SceneDelegate.h */,
@@ -135,6 +148,21 @@
 				13193B5F24B840E20017CC04 /* Info.plist */,
 			);
 			path = baisijieUITests;
+			sourceTree = "<group>";
+		};
+		13193B6F24B862C40017CC04 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				13193B7024B862F70017CC04 /* HomeViewController.h */,
+				13193B7124B862F70017CC04 /* HomeViewController.m */,
+				13193B7324B863620017CC04 /* NewsViewController.h */,
+				13193B7424B863620017CC04 /* NewsViewController.m */,
+				13193B7724B863780017CC04 /* CareViewController.h */,
+				13193B7824B863780017CC04 /* CareViewController.m */,
+				13193B7A24B863870017CC04 /* MyViewController.h */,
+				13193B7B24B863870017CC04 /* MyViewController.m */,
+			);
+			path = pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +297,11 @@
 			files = (
 				13193B3E24B840E00017CC04 /* ViewController.m in Sources */,
 				13193B3824B840E00017CC04 /* AppDelegate.m in Sources */,
+				13193B7C24B863870017CC04 /* MyViewController.m in Sources */,
 				13193B4924B840E10017CC04 /* main.m in Sources */,
+				13193B7524B863620017CC04 /* NewsViewController.m in Sources */,
+				13193B7924B863780017CC04 /* CareViewController.m in Sources */,
+				13193B7224B862F70017CC04 /* HomeViewController.m in Sources */,
 				13193B3B24B840E00017CC04 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
